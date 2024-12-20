@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(186, 184, 184);
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+    
+}
+
+
+.me {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    margin: auto;
+}
+.message {
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px; 
+    margin-left: 10%; 
+    width: 50%; 
+    padding: 10px;
+}
+.profile-picture {
+    width: 200px; /* Set the width of the circle */
+    height: 200px; /* Set the height of the circle */
+    overflow: hidden; /* Hide overflow */
+    border-radius: 50%; /* Make it circular */
+   /*  display: flex; /* Center the image */ 
+   /*  justify-content: center; */ /* Center the image */
+    align-items: center; /* Center the image */
+   /*  margin: 0 auto; /* Center the circle in the section */ */
+   margin-left: 20%;
+}
+
+.profile-picture img {
+    width: 100%; /* Make the image fill the circle */
+    height: auto;  /* Maintain aspect ratio */
+    border-radius: 50%; /* Ensure the image is also circular  */
+}
+
+@media (max-width: 800px) {
+    .me {
+        flex-direction: column;
+    } 
+    .message {
+        width: 100%;
+        margin-left: 1%;
+    }
+}
+
+.project-card {
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.myform {
+    width: 70px;
+    height: 150px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+}
+
+
+
+/*  .qtciF{margin-bottom:200px;height:100%;}
+data-styled.g63[id="Contactstyle__ContactWrapper-sc-ttnf45-0"]{content:"qtciF,"}
+.dtNDcO{width:calc(100% - 30px);position:relative;
+height:400px;margin-bottom:50px;margin-top:150px;
+background:linear-gradient(134deg,#6A98F0 0%,#4961DC 99%);
+padding:20px;border-radius:10px;}
+@media (max-width:1000px){
+.dtNDcO{width:100%;padding:10px;margin-top:50px;}}
+
+data-styled.g64[id="Contactstyle__ContactBox-sc-ttnf45-1"]{content:"dtNDcO,"}
+.gYzJEf{position:absolute;top:50%;
+-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);margin-left:6%;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;text-align:center;}
+.gYzJEf,.gYzJEf p,.gYzJEf h3{color:#f8f8f8;}
+@media (max-width:1000px){
+.gYzJEf{display:none;}}
+data-styled.g65[id="Contactstyle__LeftContent-sc-ttnf45-2"]{content:"gYzJEf,"}
+.dvwbWG{position:absolute;width:70%;top:-50px;
+right:-40px;padding:50px 30px;background:#F8F8F8;
+border-radius:10px;min-height:400px;
+box-shadow:0px 5px 10px rgba(0,0,0,0.05);
+display:grid;grid-gap:10px;grid-template-columns:1fr 1fr;grid-template-areas:'email name' 'textarea textarea' '. button';}
+.dvwbWG label span{font-size:0.85em;color:#252525;}
+.dvwbWG .label__email{grid-area:email;}
+.dvwbWG .label__name{grid-area:name;}
+.dvwbWG .label__message{grid-area:textarea;}
+.dvwbWG .submit__btn{justify-self:end;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;grid-area:button;}
+@media (max-width:768px){.dvwbWG{grid-template-areas:'email email' 'name name' 'textarea textarea' '. button';}}
+.dvwbWG input,.dvwbWG textarea{padding:10px 15px;border-radius:5px;background-color:#eaeaea;border:none;margin:10px 0;width:100%;}
+.dvwbWG textarea{margin:10px 0;width:100%;height:200px;resize:none;}
+@media (max-width:1000px){.dvwbWG{padding:30px 25px;padding-bottom:20px;position:unset;width:100%;top:0px;right:0px;}
+.dvwbWG input,.dvwbWG textarea{padding:20px 15px;}}
+data-styled.g66[id="Contactstyle__ContactForm-sc-ttnf45-3"]{content:"dvwbWG,"}
+@-webkit-keyframes dzpZbq{0%{-webkit-transform:translateY(-50px);-ms-transform:translateY(-50px);
+transform:translateY(-50px);}100%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);}}
+@keyframes dzpZbq{0%{-webkit-transform:translateY(-50px);-ms-transform:translateY(-50px);
+transform:translateY(-50px);}100%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);}}
+data-styled.g69[id="sc-keyframes-dzpZbq"]{content:"dzpZbq,"}
+@-webkit-keyframes dquRQZ{0%{opacity:0;}50%{opacity:1;}100%{opacity:0;}}
+@keyframes dquRQZ{0%{opacity:0;}50%{opacity:1;}100%{opacity:0;}}
+data-styled.g70[id="sc-keyframes-dquRQZ"]{content:"dquRQZ,"}
+</style> */
